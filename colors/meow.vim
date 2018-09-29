@@ -299,7 +299,7 @@ call s:highlight_helper("EasyMotionShade", "#67737e", "")
 " NEOVIM TERMINAL MODE
 let g:terminal_color_0 = "#22252a"
 let g:terminal_color_1 = "#e83e8c"
-let g:terminal_color_2 = "#20c997"
+let g:terminal_color_2 = "#343a40"
 let g:terminal_color_3 = "#ffc107"
 let g:terminal_color_4 = "#22252a"
 let g:terminal_color_5 = "#6f42c1"
@@ -312,7 +312,7 @@ let g:terminal_color_11 = "#ffc107"
 let g:terminal_color_12 = "#007bff"
 let g:terminal_color_13 = "#e83e8c"
 let g:terminal_color_14 = "#17a2b8"
-let g:terminal_color_15 = "#22252a"
+let g:terminal_color_15 = "#d6d8db"
 
 " FZF
 let g:fzf_colors =

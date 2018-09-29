@@ -100,6 +100,6 @@ const ansiGroups = exports.ansiGroups = {
     blue: palette.blue,
     magenta: palette.pink,
     cyan: palette.cyan,
-    white: palette.grayDark
+    white: palette.grayLight
   }
 };

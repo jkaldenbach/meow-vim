@@ -300,7 +300,7 @@ call s:highlight_helper("EasyMotionShade", "${syntaxGroups.trivial}", "")
 " NEOVIM TERMINAL MODE
 let g:terminal_color_0 = "${ansiGroups.normal.black}"
 let g:terminal_color_1 = "${ansiGroups.normal.red}"
-let g:terminal_color_2 = "${ansiGroups.normal.green}"
+let g:terminal_color_2 = "${uiGroups.backgroundShade}"
 let g:terminal_color_3 = "${ansiGroups.normal.yellow}"
 let g:terminal_color_4 = "${ansiGroups.normal.black}"
 let g:terminal_color_5 = "${ansiGroups.normal.magenta}"
