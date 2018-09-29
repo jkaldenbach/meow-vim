@@ -1,0 +1,8 @@
+{
+  "name": "nova-vim",
+  "version": "3.17.0",
+  "main": "colors/nova.vim",
+  "scripts": {
+    "build": "scripts/build"
+  }
+}
