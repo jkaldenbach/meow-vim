@@ -292,6 +292,25 @@ call s:highlight_helper("typescriptEndColons", "${syntaxGroups.trivial}", "")
 call s:highlight_helper("typescriptTemplateSB", "${syntaxGroups.trivial}", "")
 call s:highlight_helper("EasyMotionShade", "${syntaxGroups.trivial}", "")
 
+" PYTHON
+call s:highlight_helper("pythonBuiltin", "${syntaxGroups.special}", "")
+call s:highlight_helper("pythonBuiltinObj", "${syntaxGroups.special}", "")
+call s:highlight_helper("pythonBuiltinFunc", "${syntaxGroups.special}", "")
+call s:highlight_helper("pythonFunction", "${syntaxGroups.global}", "")
+call s:highlight_helper("pythonDecorator", "${syntaxGroups.statement}", "")
+call s:highlight_helper("pythonInclude", "${syntaxGroups.type}", "")
+call s:highlight_helper("pythonImport", "${syntaxGroups.type}", "")
+call s:highlight_helper("pythonRun", "${syntaxGroups.type}", "")
+call s:highlight_helper("pythonCoding", "${syntaxGroups.type}", "")
+call s:highlight_helper("pythonOperator", "${syntaxGroups.statement}", "")
+call s:highlight_helper("pythonException", "${syntaxGroups.statement}", "")
+call s:highlight_helper("pythonExceptions", "${syntaxGroups.special}", "")
+call s:highlight_helper("pythonBoolean", "${syntaxGroups.special}", "")
+call s:highlight_helper("pythonDot", "${syntaxGroups.global}", "")
+call s:highlight_helper("pythonConditional", "${syntaxGroups.statement}", "")
+call s:highlight_helper("pythonRepeat", "${syntaxGroups.statement}", "")
+call s:highlight_helper("pythonDottedName", "${syntaxGroups.constant}", "")
+
 
 " ==================================================================
 " VARIABLES

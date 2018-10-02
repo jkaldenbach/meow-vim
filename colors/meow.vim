@@ -24,7 +24,7 @@ set termguicolors
 syntax on
 syntax reset
 let g:colors_name = "nova"
-call s:highlight_helper("Normal", "#868e96", "")
+call s:highlight_helper("Normal", "#d6d8db", "")
 
 
 " ==================================================================
@@ -85,7 +85,7 @@ call s:highlight_helper("StatusLineTermNC", "#67737e", "#343a40")
 call s:highlight_helper("TabLine", "#67737e", "#343a40")
 call s:highlight_helper("TabLineFill", "#343a40", "#343a40")
 call s:highlight_helper("ToolbarLine", "#67737e", "#343a40")
-call s:highlight_helper("Pmenu", "#868e96", "#343a40")
+call s:highlight_helper("Pmenu", "#d6d8db", "#343a40")
 call s:highlight_helper("PmenuSbar", "#868e96", "#868e96")
 call s:highlight_helper("fzf1", "#22252a", "#343a40")
 call s:highlight_helper("fzf2", "#22252a", "#343a40")
@@ -100,46 +100,46 @@ call s:highlight_helper("EasyMotionTarget2Second", "#ffc107", "")
 " ==================================================================
 
 " CONSTANT
-call s:highlight_helper("Constant", "#007bff", "")
-call s:highlight_helper("Directory", "#007bff", "")
-call s:highlight_helper("jsObjectBraces", "#007bff", "")
-call s:highlight_helper("jsBrackets", "#007bff", "")
-call s:highlight_helper("jsBlock", "#007bff", "")
-call s:highlight_helper("jsFuncBlock", "#007bff", "")
-call s:highlight_helper("jsClassBlock", "#007bff", "")
-call s:highlight_helper("jsTryCatchBlock", "#007bff", "")
-call s:highlight_helper("jsIfElseBlock", "#007bff", "")
-call s:highlight_helper("jsFinallyBlock", "#007bff", "")
-call s:highlight_helper("jsSwitchBlock", "#007bff", "")
-call s:highlight_helper("jsRepeatBlock", "#007bff", "")
-call s:highlight_helper("jsObjectValue", "#007bff", "")
-call s:highlight_helper("jsClassValue", "#007bff", "")
-call s:highlight_helper("jsParen", "#007bff", "")
-call s:highlight_helper("jsParenSwitch", "#007bff", "")
-call s:highlight_helper("jsParenCatch", "#007bff", "")
-call s:highlight_helper("jsParenIfElse", "#007bff", "")
-call s:highlight_helper("jsParenRepeat", "#007bff", "")
-call s:highlight_helper("jsBracket", "#007bff", "")
-call s:highlight_helper("jsTernaryIf", "#007bff", "")
-call s:highlight_helper("jsTemplateString", "#007bff", "")
-call s:highlight_helper("jsTemplateVar", "#007bff", "")
-call s:highlight_helper("cssAttr", "#007bff", "")
-call s:highlight_helper("cssAttrRegion", "#007bff", "")
-call s:highlight_helper("cssAttributeSelector", "#007bff", "")
-call s:highlight_helper("htmlTitle", "#007bff", "")
-call s:highlight_helper("htmlH1", "#007bff", "")
-call s:highlight_helper("htmlH2", "#007bff", "")
-call s:highlight_helper("htmlH3", "#007bff", "")
-call s:highlight_helper("htmlH4", "#007bff", "")
-call s:highlight_helper("htmlH5", "#007bff", "")
-call s:highlight_helper("htmlH6", "#007bff", "")
-call s:highlight_helper("htmlLink", "#007bff", "")
-call s:highlight_helper("markdownCode", "#007bff", "")
-call s:highlight_helper("markdownCodeBlock", "#007bff", "")
-call s:highlight_helper("xmlString", "#007bff", "")
-call s:highlight_helper("netrwPlain", "#007bff", "")
-call s:highlight_helper("netrwDir", "#007bff", "")
-call s:highlight_helper("shDerefSimple", "#007bff", "")
+call s:highlight_helper("Constant", "#337dcc", "")
+call s:highlight_helper("Directory", "#337dcc", "")
+call s:highlight_helper("jsObjectBraces", "#337dcc", "")
+call s:highlight_helper("jsBrackets", "#337dcc", "")
+call s:highlight_helper("jsBlock", "#337dcc", "")
+call s:highlight_helper("jsFuncBlock", "#337dcc", "")
+call s:highlight_helper("jsClassBlock", "#337dcc", "")
+call s:highlight_helper("jsTryCatchBlock", "#337dcc", "")
+call s:highlight_helper("jsIfElseBlock", "#337dcc", "")
+call s:highlight_helper("jsFinallyBlock", "#337dcc", "")
+call s:highlight_helper("jsSwitchBlock", "#337dcc", "")
+call s:highlight_helper("jsRepeatBlock", "#337dcc", "")
+call s:highlight_helper("jsObjectValue", "#337dcc", "")
+call s:highlight_helper("jsClassValue", "#337dcc", "")
+call s:highlight_helper("jsParen", "#337dcc", "")
+call s:highlight_helper("jsParenSwitch", "#337dcc", "")
+call s:highlight_helper("jsParenCatch", "#337dcc", "")
+call s:highlight_helper("jsParenIfElse", "#337dcc", "")
+call s:highlight_helper("jsParenRepeat", "#337dcc", "")
+call s:highlight_helper("jsBracket", "#337dcc", "")
+call s:highlight_helper("jsTernaryIf", "#337dcc", "")
+call s:highlight_helper("jsTemplateString", "#337dcc", "")
+call s:highlight_helper("jsTemplateVar", "#337dcc", "")
+call s:highlight_helper("cssAttr", "#337dcc", "")
+call s:highlight_helper("cssAttrRegion", "#337dcc", "")
+call s:highlight_helper("cssAttributeSelector", "#337dcc", "")
+call s:highlight_helper("htmlTitle", "#337dcc", "")
+call s:highlight_helper("htmlH1", "#337dcc", "")
+call s:highlight_helper("htmlH2", "#337dcc", "")
+call s:highlight_helper("htmlH3", "#337dcc", "")
+call s:highlight_helper("htmlH4", "#337dcc", "")
+call s:highlight_helper("htmlH5", "#337dcc", "")
+call s:highlight_helper("htmlH6", "#337dcc", "")
+call s:highlight_helper("htmlLink", "#337dcc", "")
+call s:highlight_helper("markdownCode", "#337dcc", "")
+call s:highlight_helper("markdownCodeBlock", "#337dcc", "")
+call s:highlight_helper("xmlString", "#337dcc", "")
+call s:highlight_helper("netrwPlain", "#337dcc", "")
+call s:highlight_helper("netrwDir", "#337dcc", "")
+call s:highlight_helper("shDerefSimple", "#337dcc", "")
 
 " IDENTIFIER
 call s:highlight_helper("Identifier", "#d6d8db", "")
@@ -291,6 +291,25 @@ call s:highlight_helper("typescriptEndColons", "#67737e", "")
 call s:highlight_helper("typescriptTemplateSB", "#67737e", "")
 call s:highlight_helper("EasyMotionShade", "#67737e", "")
 
+" PYTHON
+call s:highlight_helper("pythonBuiltin", "#17a2b8", "")
+call s:highlight_helper("pythonBuiltinObj", "#17a2b8", "")
+call s:highlight_helper("pythonBuiltinFunc", "#17a2b8", "")
+call s:highlight_helper("pythonFunction", "#ffc107", "")
+call s:highlight_helper("pythonDecorator", "#fd7e14", "")
+call s:highlight_helper("pythonInclude", "#868e96", "")
+call s:highlight_helper("pythonImport", "#868e96", "")
+call s:highlight_helper("pythonRun", "#868e96", "")
+call s:highlight_helper("pythonCoding", "#868e96", "")
+call s:highlight_helper("pythonOperator", "#fd7e14", "")
+call s:highlight_helper("pythonException", "#fd7e14", "")
+call s:highlight_helper("pythonExceptions", "#17a2b8", "")
+call s:highlight_helper("pythonBoolean", "#17a2b8", "")
+call s:highlight_helper("pythonDot", "#ffc107", "")
+call s:highlight_helper("pythonConditional", "#fd7e14", "")
+call s:highlight_helper("pythonRepeat", "#fd7e14", "")
+call s:highlight_helper("pythonDottedName", "#337dcc", "")
+
 
 " ==================================================================
 " VARIABLES
@@ -304,12 +323,12 @@ let g:terminal_color_3 = "#ffc107"
 let g:terminal_color_4 = "#22252a"
 let g:terminal_color_5 = "#6f42c1"
 let g:terminal_color_6 = "#17a2b8"
-let g:terminal_color_7 = "#868e96"
+let g:terminal_color_7 = "#d6d8db"
 let g:terminal_color_8 = "#868e96"
 let g:terminal_color_9 = "#fd7e14"
 let g:terminal_color_10 = "#20c997"
 let g:terminal_color_11 = "#ffc107"
-let g:terminal_color_12 = "#007bff"
+let g:terminal_color_12 = "#337dcc"
 let g:terminal_color_13 = "#e83e8c"
 let g:terminal_color_14 = "#17a2b8"
 let g:terminal_color_15 = "#d6d8db"

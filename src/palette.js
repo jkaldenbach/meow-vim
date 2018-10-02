@@ -1,5 +1,5 @@
 const palette = {
-  blue: '#007bff',
+  blue: '#337dcc',
   blueDark: '#003e7b',
   indigo: '#6610f2',
   purple: '#6f42c1',
@@ -57,7 +57,7 @@ const uiGroups = exports.uiGroups = Object.assign({
   backgroundShade: palette.grayMediumDark,
   backgroundModified: palette.blueDark,
   background: palette.grayDark,
-  foreground: palette.gray
+  foreground: palette.grayLight
 }, colorValues.grays);
 
 const syntaxGroups = exports.syntaxGroups = {

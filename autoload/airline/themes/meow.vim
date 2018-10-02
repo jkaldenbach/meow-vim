@@ -10,7 +10,7 @@ let s:modified = {
 " Normal mode
 let s:N1 = [ "#f8f9fa" , "#868e96" , "" , ""  ]
 let s:N2 = [ "#f8f9fa" , "#67737e" , "" , ""  ]
-let s:N3 = [ "#868e96" , "#343a40" , "" , ""  ]
+let s:N3 = [ "#d6d8db" , "#343a40" , "" , ""  ]
 let g:airline#themes#nova#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 let g:airline#themes#nova#palette.normal_modified = s:modified
 
